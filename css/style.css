@@ -1,0 +1,230 @@
+body {
+	background-color: #ebebeb;
+	font-family: Roboto, HelveticaNeue, Arial, sans-serif;
+}
+
+/* BODY STYLE */
+body h1,p,h3 {
+	text-align: center;
+}
+
+table p {
+	font-size: 10px;
+}
+
+/* NAV */
+.nav {
+	font-size: 12px;
+}
+
+.nav a:link,a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+.nav a:hover {
+	color: #7a7a7a;
+}
+
+/* HEADING TITLE */
+
+.heading {
+	padding: 10%;
+}
+
+.heading h1{
+	color: #fff;
+	font-size: 48px;
+}
+
+.heading p {
+	color: #fff;
+	font-size: 20px;
+}
+
+/* HEADING IMG */
+
+#home {
+	background-image: url(../img/home/airport_sign1.jpg);
+	background-size: cover;
+	width: auto;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+#korea {
+	background-image: url(../img/korea/seoul1.jpg);
+	background-size: cover;
+	width: auto;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+#japan {
+	background-image: url(../img/japan/tokyo1.jpg);
+	background-size: cover;
+	width: auto;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+#vietnam {
+	background-image: url(../img/vietnam/hcmcity1.jpeg);
+	background-size: cover;
+	width: auto;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+#singapore {
+	background-image: url(../img/singapore/singapore1.jpg);
+	background-size: cover;
+	width: auto;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+#spain {
+	background-image: url(../img/spain/barcelona1.jpg);
+	background-size: cover;
+	width: auto;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+
+/*PARENT DIV FLAG*/
+.all-countries{
+	margin: 2%;
+}
+
+/*PARENT CLASS OF ALL THE INDIVIDUAL COUNTRIES*/
+
+.country{
+	float:left;
+	margin:1%;
+}
+
+.country img{
+	width:150px;
+}
+
+/* DESTINATION BANNER */
+.banner {
+	width: 100%;
+	height: auto;
+	/* max-width: 100%; max scale is orig size 1024px */
+}
+
+/*THE BOXES THAT CONTAIN ALL THE PLACES IN A PAGE*/
+
+.all-places{	
+	clear:both;
+	width: 100%;
+	position:relative;
+	float:left;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*EACH INDIVIDUAL BOX THAT CONTAIN THE ELEMENTS OF A PLACE*/
+
+.place{
+	padding: 0;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.place h4{
+	margin:5px;
+}
+
+.place img{
+	width:100%;
+	padding: 0;
+	margin:0;
+	transition: .5s ease;
+	opacity: 1;
+  	display: block;
+	backface-visibility: hidden;
+}
+
+.place p{
+	padding:5%;	
+}
+
+#korea-body{
+}
+
+#japan-body{
+}
+
+#vietnam-body{
+}
+
+#singapore-body{
+}
+
+#spain-body{
+}
+
+/* HOVER BOX */
+.container {
+    position: relative;
+}
+
+.container:hover .img {
+ 	opacity: 0.3;
+}
+
+.container:hover .middle {
+ 	opacity: 0.8;
+}
+
+.middle {
+ 	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+
+.text {
+ 	background-color: #fff;
+ 	color: #000;
+ 	font-size: 12px;
+	padding: 20px;
+}
+
+.text p{
+	padding: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #000;
+}
+
+/* HOVER BOX LINK STYLE */
+.text a{
+	color:  #000;
+	text-decoration: none;
+}
+
+.text a:hover{
+	background-color: #7a7a7a;
+}
+
+/* LEARN MORE LINK */
+.learn {
+	text-align: center;
+}
+.learn h3{
+	text-align: center;
+}
+.learn a{
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	border: 0.5px solid #000;
+	padding: 10px 25px;
+}
+
+.learn a:hover {
+	background-color: #7a7a7a;
+	color: #fff;
+}
